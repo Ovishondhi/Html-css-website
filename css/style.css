@@ -392,6 +392,9 @@ color: green;
 	.col-2,.col-3,.col-32,.col-4,.works .col-3 {
 		width: 100%;
 	}
+	.menu {
+		padding-top: 40px; 
+	}
 	.menu ul li {
 		float: none;
 	}
@@ -414,6 +417,7 @@ color: green;
 	.menutrigger {
 		display: block;
 		z-index: 99999;
+		margin-top: -30px;
 	}
 	.menu>ul {
 		display: none;
