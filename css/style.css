@@ -181,8 +181,8 @@ img {
 	width: 40px;
 	height: 20px;
 	margin: 10px;
-	border-bottom: 2px solid #0000;
-	border-top: 2px solid #0000;
+	border-bottom: 2px solid #ffff;
+	border-top: 2px solid #ffff;
 	position: relative;
 	cursor: pointer;
 	float: right;
@@ -191,8 +191,8 @@ img {
 	width: 40px;
 	height: 20px;
 	margin: 10px;
-	border-bottom: 2px solid #0000;
-	border-top: 2px solid #0000;
+	border-bottom: 2px solid #ffff;
+	border-top: 2px solid #ffff;
 	position: relative;
 	cursor: pointer;
 	float: right;
@@ -413,6 +413,10 @@ color: green;
 	}
 	.menutrigger {
 		display: block;
+		z-index: 99999;
+	}
+	.menu>ul {
+		display: none;
 	}
 }
 /* Responsive styles*/
